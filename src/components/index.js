@@ -5,6 +5,7 @@ import MovieCard from "./MovieCard";
 import Title from "./Title";
 import Watchlist from "./Watchlist";
 import Home from "./Home";
+import SearchBar from "./SearchBar";
 
 
-export {Header,Footer,MovieCard,MovieList,Title,Watchlist,Home}
+export {Header,Footer,MovieCard,MovieList,Title,Watchlist,Home,SearchBar}

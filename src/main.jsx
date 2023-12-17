@@ -7,10 +7,11 @@ import {MovieList,Watchlist,Home} from "./components/index.js"
 
 
 const router = createBrowserRouter(
+  
   createRoutesFromElements(
     <Route path='/' element={<App/>} >
       <Route path='' element={<Home/>}/>
-      <Route path='/movies' element={<MovieList/>}/>
+      <Route path='/movies' element={<MovieList />}/>
       <Route path='/watchlist' element={<Watchlist/>}/>
     </Route>
   )

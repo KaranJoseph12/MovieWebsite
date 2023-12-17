@@ -1,5 +1,5 @@
 import { NavLink } from "react-router-dom";
-import {Title} from "./index"
+import {SearchBar, Title} from "./index"
 import React from 'react'
 
 const Header = () => {
@@ -10,7 +10,7 @@ const Header = () => {
         <div className="flex flex-wrap  justify-between items-center mx-auto max-w-screen-xl">
                 <Title title={"BM MOVIES"}/>
             <div className="flex items-center lg:order-2">
-            <input type="text" placeholder="Search" className="input input-bordered input-info w-full max-w-xs " />
+                <SearchBar/>
             </div>
             <div
                 className="hidden justify-between items-center w-full lg:flex lg:w-auto lg:order-1"
