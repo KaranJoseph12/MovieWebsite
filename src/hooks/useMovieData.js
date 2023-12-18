@@ -12,5 +12,14 @@ const useMovieData = async (value="") => {
   
 }
 
+export const getByID = async (id) => {
+  try{
+    const res = await axios.get(`http://www.omdbapi.com/?i=${id}&apikey=65159faa&`)
+    return res.data
+  }
+  catch(err){
+    console.log("there is an error",err); 
+  }
+}
 
  export default useMovieData;
